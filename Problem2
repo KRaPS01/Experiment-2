@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a,b,c,d;
+	cout<<"Enter the previous water meter reading.\n";
+	cin>>a;
+	cout<<"Enter the recent water meter reading.\n";
+	cin>>b;
+	cout<<"Enter the unpaid balance.\n";
+	cin>>c;
+	
+	if (c<=0)
+		d= (b-a)*1.1;
+	else if (c>0)
+		d= (b-a)*1.1+20;
+		
+		cout<<"The water bill is "<<d;
+	
+	return 0;
+}
