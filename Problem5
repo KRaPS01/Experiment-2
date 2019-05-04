@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"These program will 'count' numbers, separated by commas.\n";
+	cin.ignore();
+	
+	 for(a=1;a<=10;a++)
+	 {
+	 cout<<a<<", ";		
+	 }
+	 
+	for(a=12;a<=30;a+=2)
+	 {
+	 cout<<a<<", ";		
+	 }
+	 
+	return 0;
+}
