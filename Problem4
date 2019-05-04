@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a,b,c;
+	cout<<"Enter first number.\n"<<"\n";
+	cin>>a;
+	cout<<"\nEnter second number.\n"<<"\n";
+	cin>>b;
+	cout<<"\nEnter third number.\n"<<"\n";
+	cin>>c;
+	
+	if (a>b, a>c)
+	cout<<"\nThe largest number is "<<a;
+	
+	else if (b>a, b>c)
+	cout<<"\nThe largest number is "<<b;
+	
+	else if (c>a, c>b)
+	cout<<"\nThe largest number is "<<c;
+	
+	else
+	cout<<"\nThe three numbers are equal.";
+			
+	return 0;
+}
