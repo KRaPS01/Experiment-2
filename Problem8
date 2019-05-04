@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a,b,c,d;
+	
+	cout<<"Enter a number: ";
+	cin>> a;
+	cout<<"Multiplication table of "<< a <<"\n";
+	
+		b=0;
+		while (b<10)
+		{
+			c=b+1;
+			d=c*a;
+			cout<< c <<"*"<< a <<" = "<< d <<"\n";
+			b++;
+		}
+
+	return 0;
+}
